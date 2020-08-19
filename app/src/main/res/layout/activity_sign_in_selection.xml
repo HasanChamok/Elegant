@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/one"
+    tools:context=".SignInSelection">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textColor="@color/first"
+            android:textSize="40dp"
+            android:textStyle="italic"
+            android:layout_marginLeft="63dp"
+            android:layout_marginTop="170dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <Button
+            android:id="@+id/one"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="55dp"
+            android:text="User login"
+            android:onClick="gotoUserPage"
+            android:textSize="25dp"
+            android:textStyle="italic"
+            android:layout_marginTop="35dp"
+            />
+
+        <Button
+            android:id="@+id/two"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="55dp"
+            android:text="Designer login"
+            android:onClick="gotoDesignerLoginActivity"
+            android:textSize="25dp"
+            android:textStyle="italic"
+            android:layout_marginTop="20dp"
+            />
+
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

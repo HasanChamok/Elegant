@@ -1,0 +1,2 @@
+rootProject.name='Elegant'
+include ':app'

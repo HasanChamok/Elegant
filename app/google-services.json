@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1022768292518",
+    "firebase_url": "https://elegant-2fd4f.firebaseio.com",
+    "project_id": "elegant-2fd4f",
+    "storage_bucket": "elegant-2fd4f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1022768292518:android:bb1437d299b91208e5ca67",
+        "android_client_info": {
+          "package_name": "com.example.elegant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1022768292518-sr010a1m5qk6mnm225v8m0fe86103201.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.elegant",
+            "certificate_hash": "b504f3fdbc7a467097b29f722faf1dec049bea6b"
+          }
+        },
+        {
+          "client_id": "1022768292518-se7pean6c7fcch669qisbujtcs4snsci.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDbc7rkwvVgamUZ3FWUNW_zijc4ZAGO88"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1022768292518-se7pean6c7fcch669qisbujtcs4snsci.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

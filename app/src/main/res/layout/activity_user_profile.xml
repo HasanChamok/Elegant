@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserProfile">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+
+        android:background="@drawable/bacround_gradient">
+
+        <TextView
+
+            android:id="@+id/pName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="180dp"
+            android:gravity="center_horizontal"
+            android:textColor="#fff"
+            android:textSize="30dp"
+            android:textStyle="bold"
+
+
+            />
+
+        <ImageView
+            android:layout_width="159dp"
+            android:layout_height="145dp"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/avatar" />
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="250dp"
+        android:background="#34495E"
+        >
+
+
+        <Button
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Contact"
+            android:textSize="25sp"
+            android:textColor="#fff"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/button_rounded"/>
+        <Button
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:onClick="goToUpload"
+            android:text="upload room photo"
+            android:textSize="25sp"
+            android:textColor="#fff"
+            android:layout_marginTop="85dp"
+            android:background="@drawable/button_rounded"/>
+
+        <Button
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Suggested Photo"
+            android:onClick="gotoCatagory"
+            android:textSize="25sp"
+            android:textColor="#fff"
+            android:layout_marginTop="155dp"
+            android:background="@drawable/button_rounded"/>
+
+        <Button
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="About"
+            android:textSize="25sp"
+            android:textColor="#fff"
+            android:layout_marginTop="225dp"
+            android:background="@drawable/button_rounded"
+            android:onClick="goToAbout"
+            />
+
+        <Button
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Log out"
+            android:textSize="25sp"
+            android:textColor="#fff"
+            android:layout_marginTop="295dp"
+            android:background="@drawable/button_rounded"
+            android:onClick="logOut"
+            />
+
+
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

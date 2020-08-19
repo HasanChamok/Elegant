@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Catagory">
+
+    <Button
+        android:id="@+id/but3"
+        android:layout_width="160dp"
+        android:layout_height="156dp"
+        android:text="Kitchen Room"
+        android:textSize="20sp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="216dp"
+        android:layout_marginTop="323dp" />
+
+    <Button
+        android:id="@+id/but2"
+        android:layout_width="160dp"
+        android:layout_height="156dp"
+        android:text="Living Room"
+        android:textSize="20sp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="323dp" />
+
+    <Button
+        android:id="@+id/but1"
+        android:layout_width="160dp"
+        android:layout_height="156dp"
+        android:text="Dining Room"
+        android:textSize="20sp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="217dp"
+        android:layout_marginTop="137dp" />
+
+    <Button
+        android:id="@+id/but"
+        android:layout_width="160dp"
+        android:layout_height="156dp"
+        android:text="Drawing Room"
+        android:textSize="20sp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="141dp" />
+
+</RelativeLayout>
